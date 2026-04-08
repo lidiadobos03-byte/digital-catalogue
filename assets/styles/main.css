@@ -90,10 +90,8 @@ body[data-font-preset="grand"] .display {
   font-size: clamp(2.9rem, 5.9vw, 5.8rem);
 }
 
-body[data-font-preset="grand"] .home-hero-title {
-  font-size: clamp(2.55rem, 5.1vw, 4.85rem);
-  line-height: 0.98;
-  letter-spacing: -0.045em;
+body[data-font-preset="grand"] .hero-title-compact {
+  font-size: clamp(2.72rem, 5.45vw, 5.35rem);
 }
 
 body[data-font-preset="grand"] .section-title {
@@ -341,14 +339,8 @@ main {
   text-wrap: balance;
 }
 
-.home-hero-title {
-  font-family: "Cormorant Garamond", "Forum", "Prata", "Didot", serif;
-  font-size: clamp(2.7rem, 5.6vw, 5.1rem);
-  font-weight: 600;
-  line-height: 0.96;
-  letter-spacing: -0.04em;
-  max-width: 11.6ch;
-  text-wrap: balance;
+.hero-title-compact {
+  max-width: 12ch;
 }
 
 .section-title {
@@ -1952,12 +1944,6 @@ textarea {
 @media (max-width: 720px) {
   .display {
     font-size: clamp(2.4rem, 15vw, 3.9rem);
-  }
-
-  .home-hero-title {
-    font-size: clamp(2.2rem, 13vw, 3.45rem);
-    line-height: 1;
-    max-width: 12ch;
   }
 
   .section {
