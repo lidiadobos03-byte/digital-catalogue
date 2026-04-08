@@ -1,0 +1,17 @@
+{
+  "name": "AEVUM",
+  "short_name": "AEVUM",
+  "description": "Private maison of horology for collectors seeking provenance, quiet access, and discreet service.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0b09",
+  "theme_color": "#0c0b09",
+  "icons": [
+    {
+      "src": "/assets/images/brand-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
